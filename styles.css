@@ -1,0 +1,61 @@
+#card {
+    background-color: #1B244A;;
+    width:350px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#names {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+#scores {
+    display: flex;
+    justify-content: space-around;
+}
+
+#buttons {
+    display:flex;
+    flex-direction: row;
+    margin: auto;
+    width:80%;
+    justify-content: center;
+    
+}
+
+.btn {
+    padding: 5px 3px;
+    margin: auto;
+    background-color:greenyellow;
+}
+
+
+@font-face {
+    font-family: 'Digital Numbers Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Digital Numbers Regular'), url('DigitalNumbers-Regular.woff') format('woff');
+}
+
+#guest-score {
+    display: inline-block;
+    justify-content: space-around;
+    font-family: 'Digital Numbers Regular';
+    color:red;
+    background-color: black;
+    margin: 20px 50px;
+    padding: 20px 30px;
+}
+
+#home-score {
+    display: inline-block;
+    justify-content: space-around;
+    font-family: 'Digital Numbers Regular';
+    color:red;
+    background-color: black;
+    margin: 20px 50px;
+    padding: 20px 30px;
+}
